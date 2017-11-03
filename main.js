@@ -71,7 +71,7 @@ function refreshGrid() {
 
 // Create a new grid
 function gridNew() {
-  px = prompt("Enter a pixel size.");
+  px = prompt("Enter number of pixels per axis.");
   let cellFill = document.querySelectorAll(".cell");
   cellFill.forEach(function(e){
       e.parentNode.remove();
