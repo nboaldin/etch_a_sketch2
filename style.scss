@@ -1,0 +1,51 @@
+$color-1: #00ffe0;
+$color-2: #009fff;
+$color-3: #001fff;
+$color-4: #6000ff;
+$color-5: #e000ff;
+$color-6: #ff009f;
+$color-7: #Dffffb;
+
+
+#container {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  background-color: $color-7;
+}
+
+.cell {
+  border-radius: 10px;
+}
+
+.btn-nav {
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+}
+
+button:focus {
+  outline: 0;
+  background-color: $color-5;
+}
+
+.btn {
+  background-color: $color-6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#grayTrip {
+  background-color: black;
+}
+
+#grayTrip:focus {
+  background-color: gray;
+}

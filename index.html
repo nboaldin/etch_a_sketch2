@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2nd-Etch-a-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="btn-nav">
+      <button type="button" class="btn" id="clearBtn" onclick="refreshGrid()">Clear Grid</button>
+      <button type="button" class="btn" id="createGrid" onclick="gridNew()" >Generate Grid</button>
+      <button type="button" class="btn" id="rainbowMode" onfocus="rainbowMode()" onblur="fillCells()" >Rainbow Mode</button>
+      <button type="button" class="btn" id="grayTrip" onfocus="grayTrip()" onblur="fillCells()" >Gray Trip</button>
+
+
+    </div>
+
+    <div id="container">
+
+    </div>
+
+
+
+
+
+  <script src="main.js"></script>
+  </body>
+</html>
